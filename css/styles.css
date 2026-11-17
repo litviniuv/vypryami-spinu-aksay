@@ -192,3 +192,6 @@ html.m-on [data-line]{transition:transform 1.2s var(--ease)}
 html.m-on .orn--about:not(.in),html.m-on .orn--rev:not(.in){transform:scaleY(0)}
 html.m-on .orn--about,html.m-on .orn--rev{transition:transform 1.3s var(--ease);transform-origin:bottom}
 @media (max-width:359px){.demo{font-size:9.5px;letter-spacing:.01em;padding:3px 6px;gap:0 8px}}
+
+.gal__lane .m-only{display:none}
+@media (max-width:899px){.gal__lane .m-only{display:block}.gal__lane .d-only{display:none}}
